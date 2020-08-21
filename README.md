@@ -17,3 +17,4 @@
 ## Further links
 
 - Generator: [Jekyll](https://jekyllrb.com)
+- Template: [Start Bootstrap - Resume](https://github.com/StartBootstrap/startbootstrap-resume)
