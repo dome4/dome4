@@ -32,14 +32,20 @@ sass:
   style: compressed
 plugins:
   - jekyll-feed
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - icons/fontawesome/css/
+  - icons/fontawesome/less/
+  - icons/fontawesome/metadata/
+  - icons/fontawesome/scss/
+  - icons/fontawesome/sprites/
+  - icons/fontawesome/svgs/
+  - icons/fontawesome/webfonts/
