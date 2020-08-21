@@ -30,8 +30,10 @@ theme: minima
 sass:
   sass_dir: _scss
   style: compressed
+  # style: expanded
 plugins:
   - jekyll-feed
+  - jekyll-pwa-plugin
 
 exclude:
   - Gemfile
@@ -49,3 +51,14 @@ exclude:
   - icons/fontawesome/sprites/
   - icons/fontawesome/svgs/
   - icons/fontawesome/webfonts/
+
+pwa:
+  sw_src_filepath: js/service-worker.js
+  dest_js_directory: js
+  precache_glob_directory: /
+  precache_glob_patterns:
+    - '{js,css,fonts,img}/**/*.{js,css,eot,svg,ttf,woff,woff2,png,jpg}'
+    - index.html
+    - icons/fontawesome/js/all.min.js
+  precache_glob_ignores:
+    - sw-register.js
