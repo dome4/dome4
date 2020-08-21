@@ -1,12 +1,98 @@
+/*************************/
+/* Saira Extra Condensed */
+/*************************/
+
+/* saira-extra-condensed-700 - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Saira Extra Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Saira ExtraCondensed Bold'), local('SairaExtraCondensed-Bold'),
+    url('/fonts/Saira_Extra_Condensed/saira-extra-condensed-v5-vietnamese_latin-ext_latin-700.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/Saira_Extra_Condensed/saira-extra-condensed-v5-vietnamese_latin-ext_latin-700.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* saira-extra-condensed-500 - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Saira Extra Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Saira ExtraCondensed Medium'), local('SairaExtraCondensed-Medium'),
+    url('/fonts/Saira_Extra_Condensed/saira-extra-condensed-v5-vietnamese_latin-ext_latin-500.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/Saira_Extra_Condensed/saira-extra-condensed-v5-vietnamese_latin-ext_latin-500.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/*************************/
+/********* Mulish ********/
+/*************************/
+/* mulish-regular - vietnamese_latin-ext_latin */
+/* mulish-regular - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-regular.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-regular.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-800 - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+    url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-800.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-800.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-italic - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+    url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-italic.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-italic.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-800italic - vietnamese_latin-ext_latin */
+@font-face {
+  font-family: 'Mulish';
+  font-style: italic;
+  font-weight: 800;
+  src: local(''),
+    url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-800italic.woff2')
+      format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('/fonts/Mulish/mulish-v1-vietnamese_latin-ext_latin-800italic.woff')
+      format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 // Override Bootstrap typography variables
 
-$font-family-base: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-base: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
-$headings-font-family: "Saira Extra Condensed", -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-family: 'Saira Extra Condensed', -apple-system,
+  BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
 $headings-font-weight: 700;
 
