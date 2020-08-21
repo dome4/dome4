@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
+*/
+
+// Import variables
+@import './variables.scss';
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap.scss';
+
+// Global CSS
+@import './global.scss';
+
+// Components
+@import './components/sidenav.scss';
+@import './components/icons.scss';
+
+// Sections
+@import './sections/resume-section.scss';
